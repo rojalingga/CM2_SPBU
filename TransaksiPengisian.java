@@ -1,3 +1,5 @@
+// Rojalingga P.A / SIB 1C / 20
+
 public class TransaksiPengisian {
     Kendaraan kendaraan;
     BBM bbm;

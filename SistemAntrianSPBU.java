@@ -1,3 +1,5 @@
+// Rojalingga P.A / SIB 1C / 20
+
 import java.util.Scanner;
 
 public class SistemAntrianSPBU {

@@ -1,3 +1,5 @@
+// Sultan Syarif / SIB 1C / 22
+
 public class Kendaraan {
     String platNomor, tipe, merk;
 

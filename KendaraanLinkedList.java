@@ -1,3 +1,5 @@
+//Bunga Aulia / SIB 1C / 4
+
 public class KendaraanLinkedList {
     KendaraanNode head;
     KendaraanNode tail;
