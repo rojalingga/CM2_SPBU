@@ -55,7 +55,7 @@ public class TransaksiQueue {
         
                 if (i == rear) break;
         
-                i = (i + 1) % max;
+                i++;
             }
         }
     
