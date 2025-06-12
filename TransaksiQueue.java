@@ -45,18 +45,19 @@ public class TransaksiQueue {
         if (isEmpty()) {
             System.out.println("Tidak ada antrian.");
             return;
+        } else {
+            System.out.println("-- Riwayat Transaksi --");
+        
+            int i = front;
+        
+            while (true) {
+                data[i].tampil();
+        
+                if (i == rear) break;
+        
+                i = (i + 1) % max;
+            }
         }
     
-        System.out.println("-- Riwayat Transaksi --");
-    
-        int i = front;
-    
-        while (true) {
-            data[i].tampil();
-    
-            if (i == rear) break;
-    
-            i = (i + 1) % max;
-        }
     }    
 }
